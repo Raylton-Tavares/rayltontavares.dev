@@ -1,0 +1,8 @@
+
+body { margin: 0; background: #0d1117; color: #e6edf3; font-family: sans-serif; }
+.container { max-width: 960px; margin: auto; padding: 20px; }
+nav ul { list-style: none; display: flex; gap: 10px; padding: 0; }
+a { color: white; text-decoration: none; }
+#preloader { position: fixed; top:0;left:0;right:0;bottom:0;background:#0d1117;display:flex;align-items:center;justify-content:center;z-index:9999; }
+.loader { border:5px solid #222; border-top:5px solid #00aaff; border-radius:50%; width:40px;height:40px; animation:spin 1s linear infinite; }
+@keyframes spin { 0%{transform:rotate(0deg);}100%{transform:rotate(360deg);} }
